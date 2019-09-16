@@ -1,4 +1,5 @@
 /*eslint-env es6*/
+// El servidor no acepta las peticiones de tipo POST del formulario "escribenos" la respuesta es not found 404, revisar esto en la API
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
